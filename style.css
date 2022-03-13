@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(45deg, #f88cff 0%, #8cb9ff 100%);
+}
+
+.wrapper {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.intro {
+    min-height: 100vh;
+    font-family: Roboto;
+}
+
+.intro_wrapper {
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro img {
+    border-radius: 1em;
+    width: 250px;
+}
+
+.about_wrapper {
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    min-height: 100vh;
+    font-family: Roboto;
+}
+
+.about p {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+.games_wrapper {
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.games {
+    min-height: 100vh;
+    font-family: Roboto;  
+}
+
+.games p {
+    font-size: 25px;
+}
+
+.hobbies_wrapper {
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.hobbies {
+    min-height: 100vh;
+    font-family: Roboto;     
+}
+
+.hobbies p {
+    font-size: 25px;    
+}
+
+.contacts p {
+    font-size: 25px;
+    font-family: Roboto;
+}
+
+.contacts {
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.intro img:hover {
+    filter: sepia(50%);
+}
